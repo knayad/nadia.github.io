@@ -56,8 +56,8 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
-    function fizzBuzzReplace() {
-        location.replace("https://github.com/knayad/fizzBuzz")
+    function urlReplace(newURL) {
+        location.replace(newURL)
     };
 });
 
