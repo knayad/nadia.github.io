@@ -25,8 +25,8 @@
 
         
 <!-- Custom Favicon--> 
-<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/assets/favicomatic/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/assets/favicomatic/favicon-16x16.png" sizes="16x16" />
 
 <!-- LightBox Bootstrap  -->
 <script src="/bootstrap-lightbox/bootstrap-lightbox.js"></script>
@@ -91,7 +91,8 @@
                         <p> This isn't me, but a much cooler person </p>
                         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uqNaLXkC3YA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         
-        <!-- Image of... myself?      -->
+ <!-- Different Pictures, based on size... of myself.. ?      -->
+                        
      <style> 
         #myselfDIV {
           width: 100px;
@@ -107,7 +108,10 @@
                         
       <style>
         <div id="myselfDIV">
-        <img class="img" src="/assets/star.svg" alt="stockphoto of someone coller than me">
+        <picture>
+        <source srcset="/assets/img/portfolio/Personal Images/KairaNotMelol.jpg" type="image/jpg">
+        <img src="/assets/star.svg" class="img-fluid img-thumbnail" type="image/jpg" alt="TBH, neither are me">
+        </picture> 
         </div>
       </style>
 
@@ -195,6 +199,9 @@
                         </div>
                     </div>
                 </div>
+                
+<!-- multiple Images/ Pictures for Languages                  -->
+                
 <!--    Languages                  -->
     <div class="container flex">
         <div class="card">
@@ -265,7 +272,7 @@
             </a>
         </div>
             
-    
+    <div class="slbElement  slbLoading"><div class="slbOverlay"></div><div class="slbWrapOuter"><div class="slbWrap"><div class="slbContentOuter"><div class="slbContent slbDirectionNext"><div class="slbImageWrap"><img class="slbImage" src="assets/img/portfolio/fullsize/3.jpg" style="max-height: 909px;"><div class="slbCaption">Project Name</div></div></div><button type="button" title="Close" class="slbCloseBtn ">×</button><div class="slbArrows"><button type="button" title="Previous" class="prev slbArrow">Previous</button><button type="button" title="Next" class="next slbArrow">Next</button></div></div></div></div></div>
     <!--           FOLLOWING EYES           -->
                     <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" title="Following Eyes" href="https://github.com/knayad/following-eyes" target=new>
