@@ -243,7 +243,8 @@
         <div id="portfolio">
             <div class="container-fluid p-0">
                 <div class="row g-0">
-<!-- Lightbox Activation (see: scripts.js)  -->
+                    
+<!-- Lightbox Activation too below(see: scripts.js)  -->
                     
                     
         <!--            FIZZBUZZ                      -->  
@@ -256,28 +257,33 @@
             </div>
             </a>
         </div>
-
-        <a data-toggle="lightbox" href="#lightbox">
-            <div id="fizzBuzzLightbox" class="carousel-item" tabindex="-1" role="dialog" aria-hidden="true">        
-                <div class='lightbox-dialog'>
-                    <a href="https://github.com/knayad/fizzBuzz" target=new>
-                        <div class='lightbox-dialog'>
-                            <div class='lightbox-content'>
-                                <img class="img-fluid" src="assets/img/portfolio/fullsize/1.jpg" alt="https://github.com/knayad/fizzBuzz"
-                                onmouseover="this.src='assets/img/portfolio/Projects/fizzBuzz.PNG'" onmouseout="this.scr='assets/img/portfolio/thumbnails/1.jpg'"
-                                >
+                    <a data-toggle="lightbox" href="#lightbox">
+                    <div class="slbElement  slbLoading">
+                        <div class="slbOverlay"></div>
+                        <div class="slbWrapOuter">
+                            <div class="slbWrap">
+                                <div class="slbContentOuter">
+                                    <div class="slbContent slbDirectionNext" tabindex="-1" role="dialog" aria-hidden="true">
+                                         <div id="fizzBuzzLightbox" class="slbImageWrap">
+                                             <a href="https://github.com/knayad/fizzBuzz" target=new>
+                                             <img class="slbImage" src="assets/img/portfolio/fullsize/3.jpg" style="max-height: auto;" src="assets/img/portfolio/fullsize/1.jpg" alt="https://github.com/knayad/fizzBuzz"
+                                onmouseover="this.src='assets/img/portfolio/Projects/fizzBuzz.PNG'" onmouseout="this.scr='assets/img/portfolio/thumbnails/1.jpg'">
+                                             <div class="slbCaption">fizzBuzz()</div>
+                                             </a>
+                                        </div>
+                                    </div>
+                                    <button type="button" title="Close" class="slbCloseBtn ">×
+                                    </button>
+                                    <div class="slbArrows">
+                                        <button type="button" title="Previous" class="prev slbArrow">Previous</button>
+                                        <button type="button" title="Next" class="next slbArrow">Next</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-            <a href="https://github.com/knayad/fizzBuzz" target=new>
-            <div class='lightbox-caption'>
-                fizzBuzz()
-            </div>
-            </a>
-        </div>
-            
-    <div class="slbElement  slbLoading"><div class="slbOverlay"></div><div class="slbWrapOuter"><div class="slbWrap"><div class="slbContentOuter"><div class="slbContent slbDirectionNext"><div class="slbImageWrap"><img class="slbImage" src="assets/img/portfolio/fullsize/3.jpg" style="max-height: 909px;"><div class="slbCaption">Project Name</div></div></div><button type="button" title="Close" class="slbCloseBtn ">×</button><div class="slbArrows"><button type="button" title="Previous" class="prev slbArrow">Previous</button><button type="button" title="Next" class="next slbArrow">Next</button></div></div></div></div></div>
+                        </div>
+                                        
+
     <!--           FOLLOWING EYES           -->
                     <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" title="Following Eyes" href="https://github.com/knayad/following-eyes" target=new>
