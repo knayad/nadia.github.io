@@ -56,9 +56,14 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.portfolio-box'
     });
 
-    function urlReplace(newURL) {
-        location.replace(newURL)
+    function onClickSLB("currentHREF", "newURL"){
+    // Simulate a mouse click:
+    window.location.href= currentHREF;
+
+    // Simulate an HTTP redirect:
+    window.location.replace(newURL);
     };
+
 });
 
 
