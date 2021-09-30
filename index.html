@@ -97,8 +97,6 @@
                         
 
                      <!-- Different Pictures, based on size... of... myself.. ?      -->
-          <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-evenly">
-                    <div class="col-lg-8 align-self-end">               
      <style> 
         #myselfDIV {
           width: 100px;
@@ -128,6 +126,7 @@
                          font-family: 'Roboto', sans-serif;
                          }
                        </style>
+			    
                      
     <hr class="divider" />
                     </div>
@@ -239,92 +238,7 @@
             </div>
         </section>
     
-    
-        <!-- Portfolio-->
-        <div id="portfolio">
-            <div class="container-fluid p-0">
-                <div class="row g-0">
-                    
-<!-- Lightbox Activation too below(see: scripts.js)  -->
-	<a data-toggle="lightbox" href="#portfolio">
-		<div class='lightbox-content'>
-			
-				</a>
-			</div>
-			<div class="lightbox-caption"><p>fizzBuzz()</p></div>
-		</div>
 
-                    
-        <!--            FIZZBUZZ                      -->  
- 	<div class="col-lg-4 col-sm-6">
-		<a class="portfolio-box"title="fizzBuzz()" href="assets/img/portfolio/fullsize/.jpg" >
-			<img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="https://github.com/knayad/fizzBuzz" />
-			<div class="portfolio-box-caption">
-				<div class="project-category text-white-50">JAVASCRIPT</div>
-					<div class="project-name"> fizzBuzz() </div>
-				</div>
-			
-    <!--           FOLLOWING EYES           -->
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" title="Following Eyes" href="https://github.com/knayad/following-eyes" target=new>
-                             <img class="img-fluid" src="assets/img/portfolio/fullsize/2.jpg" alt="github.com/knayad/following-eyes">
-                                <img scr="assets/img/portfolio/thumbnails/2.jpg" onmouseover="this.src='assets/img/portfolio/Projects/giphy-eyes.gif'" onmouseout="this.scr='assets/img/portfolio/thumbnails/2.jpg'"/>
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50"> HTML/ CSS/ JAVASCRIPT</div>
-                                <div class="project-name"> Following Eyes </div>
-                            </div>
-                        </a>
-                    </div>
-			
-</a>
-                    
-<!--               aadded above a           -->
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50"></div>
-                                <div class="project-name"></div>
-                            </div>
-                        </a>
-                    </div>
-                        
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 <!-- Carousel	 -->
 <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -333,9 +247,11 @@
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
+	
+<!-- FIZZ BUZZ	 -->
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img class="d-block w-100" src="assets/img/portfolio/fullsize/1.jpg" alt="https://github.com/knayad/fizzBuzz" onmouseover="this.src='assets/img/portfolio/Projects/fizzBuzz.PNG'" onmouseout="this.scr='assets/img/portfolio/thumbnails/1.jpg'" onclick="onClickSLB("assets/img/portfolio/Projects/fizzBuzz.PNG", "https://github.com/knayad/fizzBuzz")">
+      <img class="d-block w-100" src="assets/img/portfolio/fullsize/1.jpg" alt="https://github.com/knayad/fizzBuzz" onmouseover="this.src='assets/img/portfolio/Projects/fizzBuzz.PNG'" onmouseout="this.scr='assets/img/portfolio/fullsize/1.jpg'" onclick="onClickSLB('assets/img/portfolio/Projects/fizzBuzz.PNG', 'https://github.com/knayad/fizzBuzz')">
       <div class="carousel-caption d-none d-md-block">
         <h5>fizzBuzz()</h5>
         <p>Successfully completed a common interview question to build a fliter-type function in JavaScript.</p>
