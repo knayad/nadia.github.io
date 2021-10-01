@@ -6220,14 +6220,14 @@ body
 
 [data-type="monalisa"]
     .content__left
-        background-image: url('knayad/Mini-Projects/functions-objects/MonaLisaOutput.PNG')
+        background-image: url('/assets/img/portfolio/Projects/MonaLisaOutput.PNG')
         
         .spinner--right &
             background-image: none
             
-[data-type="china"]
+[data-type="busStopsToMIT"]
     .content__left
-        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/215059/china.jpg')
+        background-image: url('assets/img/portfolio/Projects/MIT-bus-stops-giphy.gif')
         
         .spinner--right &
             background-image: none
