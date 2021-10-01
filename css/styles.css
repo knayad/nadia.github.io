@@ -6220,7 +6220,7 @@ body
 
 [data-type="monalisa"]
     .content__left
-        background-image: url('/functions-objects/MonaLisaOutput.PNG')
+        background-image: url('knayad/Mini-Projects/functions-objects/MonaLisaOutput.PNG')
         
         .spinner--right &
             background-image: none
