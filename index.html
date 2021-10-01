@@ -250,88 +250,81 @@
 <section class="page-section" id="portfolio">
 	
 <!-- Carousel 	 -->
-<!-- https://codepen.io/paulnoble/pen/yVyQxv	 -->
-<div class="carousel">
-    <div class="carousel__control">
-    </div>
-    <div class="carousel__stage">
-<!-- 	FIZZBUZZ     -->
-        <div class="spinner spinner--left">
-            <div class="spinner__face js-active" data-bg="#27323c" data-index="3" >
-                <div class="content" data-type="monalisa">
-                    <div class="content__left">
-                        <h2>Mona Lisa<br><span>Functions & Objects</span></h2>
-                    </div>
-                    <div class="content__right">
-                        <div class="content__main">
-                            <p>Created functions and objects to create an alternate version of Mona Lisa.</p>
-                          <p>– Ball data by MIT </p>
-                        </div>
-                        <h3 class="content__index">01</h3>
-                    </div>
-                </div>
-            </div>
-<!-- MIT BUS STOPS -->
-            <div class="spinner__face" data-bg="#19304a">
-                <div class="content" data-type="busStopsToMIT">
-                    <div class="content__left">
-                        <h2>Bus Stops To MIT<br><span>Basic animations on map.</span></h2>
-                    </div>
-                    <div class="content__right">
-                        <div class="content__main">
-                            <p> - MBTA bus data: stops between Harvard and MIT with an animated marker on the map to highlight the bus routes</p>
-                          <p>– Damian Harper</p>
-                        </div>
-                        <h3 class="content__index">02</h3>
-                    </div>
-                </div>
-            </div>
-<!-- 		 -->
-            <div class="spinner__face" data-bg="#2b2533">
-                <div class="content" data-type="usa">
-                    <div class="content__left">
-                        <h1>USA<br><span>NORTH AMERICA</span></h1>
-                    </div>
-                    <div class="content__right">
-                        <div class="content__main">
-                            <p>“When it comes to travel, America has always floored me with its staggering range of possibilities. Not many other countries have so much natural beauty – mountains, beaches, rainforest, deserts, canyons, glaciers – coupled with fascinating cities to explore, an unrivaled music scene and all the things that make travel so rewarding (friendly locals, great restaurants and farmers markets, and plenty of quirky surprises).” </p>
-                          <p>– Regis St Louis</p>
-                        </div>
-                        <h3 class="content__index">03</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="spinner__face" data-bg="#312f2d">
-                <div class="content" data-type="peru">
-                    <div class="content__left">
-                        <h1>PERU<br><span>SOUTH AMERICA</span></h1>
-                    </div>
-                    <div class="content__right">
-                        <div class="content__main">
-                            <p>“For me, Peru is the molten core of South America, a distillation of the oldest traditions and the finest building, weaving and art made by the most sophisticated cultures on the continent. In Peru the wildest landscapes – from frozen Andean peaks to the deep Amazon – help us re-forge our connection to the natural world. It is also a cultural stew, where diverse peoples live side by side, negotiating modern life with humor and aplomb. Beyond that, the cuisine alone makes it worth the trip. Every return is rich and surprising.”</p>
-                          <p>– Carolyn McCarthy</p>
-                        </div>
-                        <h3 class="content__index">04</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<!-- https://codepen.io/andata/pen/pEyAGj	 -->
+<section class="carousel">
+	<input class="carousel__input" type="radio" id="carousel__slide--1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+	<div class="carousel__slide" style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/334248/earth_back_1.jpg)">
+		<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/334248/earth_front_1.jpg">
+		<div class="carousel__caption">
+			<p>Aurora over the northern hemisphere, from the ISS (solar array visible to the right)<br/>Image: <a target="_blank" href="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2015/04/living_being/15347247-1-eng-GB/Living_being_fullwidth.jpg">NASA/ESA</a></p>
+		</div>
+	</div>
 
-<!--  Poor man's preloader -->
-<div style="height: 0; width: 0; overflow: hidden">
-<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/215059/peru.jpg">
-<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/215059/canada.jpg"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/215059/china.jpg"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/215059/usa.jpg"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/215059/iceland.jpg"></div>
-        <!-- Call to action-->
-        <section class="page-section bg-dark text-white">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">Checkout My GitHub or LinkedIn!</h2>
-                <a class="btn btn-light btn-xl" href="https://github.com/knayad">GitHub</a>
-                <p> circle gif! </p>
-                <a class="btn btn-light btn-xl" href="https://www.linkedin.com/in/knayad/">LinkedIn</a>
-            </div>
-        </section>
+	<input class="carousel__input" type="radio" id="carousel__slide--2" name="carousel" aria-hidden="true" hidden="">
+	<div class="carousel__slide" style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/334248/earth_back_2.jpg)">
+		<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/334248/earth_front_2.jpg">
+		<div class="carousel__caption">
+			<p>The Moon in the haze of Earth’s atmosphere; photographed by astronaut Scott Kelly<br/>Image: <a target="_blank" href="https://www.instagram.com/p/7rIJ1pwinV/">@whitehouse</a></p>
+		</div>
+	</div>
+
+	<input class="carousel__input" type="radio" id="carousel__slide--3" name="carousel" aria-hidden="true" hidden="">
+	<div class="carousel__slide" style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/334248/earth_back_3.jpg)">
+		<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/334248/earth_front_3.jpg">
+		<div class="carousel__caption">
+			<p>Apollo 17 photo "The Blue Marble" is the first image to capture Antarctic ice sheet<br/>Image: <a target="_blank" href="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/images/135918main_bm1_high.jpg?itok=2I8-uSUB">NASA</a></p>
+		</div>
+	</div>
+
+	<input class="carousel__input" type="radio" id="carousel__slide--4" name="carousel" aria-hidden="true" hidden="">
+	<div class="carousel__slide" style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/334248/earth_back_4.jpg)">
+		<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/334248/earth_front_4.jpg">
+		<div class="carousel__caption">
+			<p>Soyuz spacecraft over the river Seine and most of France, captured from the ISS<br/>Image: <a target="_blank" href="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2016/05/reflets_du_soleil_sur_les_meandres_de_la_seine/15969380-1-eng-GB/Reflets_du_Soleil_sur_les_meandres_de_la_Seine_node_full_image_2.jpg">ESA/Tim Peake</a></p>
+		</div>
+	</div>
+
+	<input class="carousel__input" type="radio" id="carousel__slide--5" name="carousel" aria-hidden="true" hidden="">
+	<div class="carousel__slide" style="background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/334248/earth_back_5.jpg)">
+		<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/334248/earth_front_5.jpg">
+		<div class="carousel__caption">
+			<p>Buzz Aldrin on the Moon with Neil Armstrong reflected in his visor, July 20, 1969<br/>Image: <a target="_blank" href="https://www.nasa.gov/sites/default/files/images/337294main_pg62_as11-40-5903_full.jpg">NASA</a></p>
+		</div>
+	</div>
+	
+	<!-- ARROWS -->
+	<label for="carousel__slide--5" class="carousel__arrow carousel__arrow--prev carousel__arrow--1"></label>
+	<label for="carousel__slide--5" class="carousel__arrow carousel__arrow--next carousel__arrow--4"></label>
+	<label for="carousel__slide--4" class="carousel__arrow carousel__arrow--prev carousel__arrow--5"></label>
+	<label for="carousel__slide--4" class="carousel__arrow carousel__arrow--next carousel__arrow--3"></label>
+	<label for="carousel__slide--3" class="carousel__arrow carousel__arrow--prev carousel__arrow--4"></label>
+	<label for="carousel__slide--3" class="carousel__arrow carousel__arrow--next carousel__arrow--2"></label>
+	<label for="carousel__slide--2" class="carousel__arrow carousel__arrow--prev carousel__arrow--3"></label>
+	<label for="carousel__slide--2" class="carousel__arrow carousel__arrow--next carousel__arrow--1"></label>
+	<label for="carousel__slide--1" class="carousel__arrow carousel__arrow--prev carousel__arrow--2"></label>
+	<label for="carousel__slide--1" class="carousel__arrow carousel__arrow--next carousel__arrow--5"></label>
+
+	<!-- BULLETS -->
+	<ol class="carousel__bullets">
+		<li>
+			<label for="carousel__slide--1" class="carousel__bullets--bullet"></label>
+		</li>
+		<li>
+			<label for="carousel__slide--2" class="carousel__bullets--bullet"></label>
+		</li>
+		<li>
+			<label for="carousel__slide--3" class="carousel__bullets--bullet"></label>
+		</li>
+		<li>
+			<label for="carousel__slide--4" class="carousel__bullets--bullet"></label>
+		</li>
+		<li>
+			<label for="carousel__slide--5" class="carousel__bullets--bullet"></label>
+		</li>
+	</ol>
+</section>
+	
+	
 <!--  Add click here for list -->
 <p> Or, for a boring ol' list, click here </p>
         <!-- Contact-->
