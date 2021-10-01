@@ -6218,9 +6218,9 @@ body
         font-family: oswald
         color: #fff
 
-[data-type="iceland"]
+[data-type="monalisa"]
     .content__left
-        background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/215059/iceland.jpg')
+        background-image: url('/functions-objects/MonaLisaOutput.PNG')
         
         .spinner--right &
             background-image: none
