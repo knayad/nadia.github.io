@@ -11444,6 +11444,29 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 
+/* ============================================================ */
 /* Start https://www.cursors-4u.com */ 
 * {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat911.cur), auto !important;} 
 /* End https://www.cursors-4u.com */
+/* =============================================================== */
+/* YouTube DIV styles */
+
+.youtube-video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.youtube-video-container::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
