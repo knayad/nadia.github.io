@@ -11681,6 +11681,34 @@ html, body {
 /* Taken from Tracy Breen--  whom you should also hire XD */
 /* ============================================================ */
 
+/*Utilities*/
+.container {
+  max-width: 1100px;
+  margin: 0 auto; /* zero on top and bottom, auto on left and right - -this paired with the max-width above will make it so if the screen gets bigger than 1100px, the contents will stay a little closer to the middle and not be all the way at the far edges */
+  overflow: auto; /* fixes the gap at the top of the screen (which was created because even though we don't have any <h1> tags yet, we have styled for them to have 10px of padding -- so the browser is leavign room for an h1 I guess */
+  padding: 0 40px; /* starts it just a bit away from the edge of the screen */
+}
+
+.card {
+  background-color: darkslategray;
+  color: cadetblue;
+  border-radius: 10px; /* curves edges */
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2); /* horizontal offset 0, vertical offset 3px; 10px blur; rgba color (red, green, blue, alpha value (transparency) */
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: center; /*always pertains to main axis -- if we were using flex-direction: column then the main axis would be a column */
+  /* also we will use space-between -- but we don't want it everywhere - just for the navbar, so we'll do that separately. */
+  align-items: center;
+  height: 100%;
+}
+
+
+
 /* Languages */
 .languages .flex {
   flex-wrap: wrap;
