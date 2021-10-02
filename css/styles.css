@@ -11682,7 +11682,16 @@ html, body {
 /* ============================================================ */
 
 /*Utilities*/
-.container {
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* adds space between grid columns */
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* adding this makes the grid take up the whole container so that the form and the showcase text won't be smooshed up top  --- it didn't do it before because we didn't have a height listed  for the container */
+	
+.Tcontainer {
   max-width: 1100px;
   margin: 0 auto; /* zero on top and bottom, auto on left and right - -this paired with the max-width above will make it so if the screen gets bigger than 1100px, the contents will stay a little closer to the middle and not be all the way at the far edges */
   overflow: auto; /* fixes the gap at the top of the screen (which was created because even though we don't have any <h1> tags yet, we have styled for them to have 10px of padding -- so the browser is leavign room for an h1 I guess */
