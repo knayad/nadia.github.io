@@ -11676,3 +11676,28 @@ html, body {
 		bottom: 40px;
 	}
 } 
+
+/* =========================================================== */
+/* Taken from Tracy Breen--  whom you should also hire XD */
+/* ============================================================ */
+
+/* Languages */
+.languages .flex {
+  flex-wrap: wrap;
+}
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in; /* this makes the bouncy card situation a little nicer to look at -- it eases in to the transition over 2/10ths of a second. */
+}
+
+.languages .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.languages .card:hover {
+  transform: translateY(-15px); /* makes the little cards bounce up a tiny bit when you hover over them  ... but it's a little too abrupt so we'll go back up a few lines to .languages .card and add a transition ^^ */
+}
+/* ======================================== */
