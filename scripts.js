@@ -40,16 +40,13 @@ window.addEventListener('DOMContentLoaded', event => {
     var width, height, sideNav, canvas, ctx, points, target, animateHeader = true;
 
     // Main
-    initHeader();
+
     initAnimation();
     addListeners();
 
-    function initHeader() {
-        width = window.innerWidth;
-        height = window.innerHeight;
-        target = {x: width/2, y: height/2};
-
         sideNav = document.getElementById('sideNav');
+        height = sideNav.innerHeight;
+        width = sideNav.innerWidth;
         sideNav.style.height = height+'px';
 
         canvas = document.getElementById('sideNav');
