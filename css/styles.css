@@ -205,8 +205,8 @@ p {
 .mouse {
   display: block;
   margin: 0 auto;
-  width: 26px;
-  height: 46px;
+  width: 10px;
+  height: 36px;
   border-radius: 13px;
   border: 2px solid #e8f380;
   position: absolute;
@@ -218,9 +218,9 @@ p {
 .mouse span {
   display: block;
   margin: 6px auto;
-  width: 2px;
-  height: 2px;
-  border-radius: 4px;
+  width: 4px;
+  height: 4px;
+  border-radius: 6px;
   background: #e8f380;
   border: 1px solid transparent;
   -webkit-animation-duration: 1s;
@@ -269,6 +269,7 @@ p {
 	position: relative;
 	width: 100%;
   min-height: 1000px;
+	background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg');
 	background: #333;
 	overflow: hidden;
 	background-size: cover;
@@ -276,8 +277,104 @@ p {
 	z-index: 1;
 }
 
-.demo-1 .large-header {
-	background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg');
+
+/* boxes for dayyyyyyyyys */
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+  
+        .box-wrapper {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+        }
+	
+	.left-column {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+  
+        }
+  
+        .left-column div {
+            flex-grow: 1;
+            margin: 0 8px;
+            border: solid 1px red;
+        }
+  
+        .left-column div+div {
+            margin-top: 8px
+        }
+
+  
+        .middle-column {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+  
+        }
+  
+        .middle-column div {
+            flex-grow: 1;
+            margin: 0 8px;
+            border: solid 1px red;
+        }
+  
+        .middle-column div+div {
+            margin-top: 8px
+        }
+
+	 {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+  
+        }
+  
+        .right-column div {
+            flex-grow: 1;
+            margin: 0 8px;
+            border: solid 1px red;
+        }
+  
+        .right-column div+div {
+            margin-top: 8px
+        }
+
+/* LAUGHING SKULL  */
+
+body,
+#container {
+  width: 100%;
+  height: 100%;
+  background: #1d1e1a;
+}
+
+#skull {
+  display:block;
+  width: 400px;
+  height: 545px;
+  margin: auto;
+}
+
+polygon {
+  stroke: #dbdad7;
+  stroke-width: 1px;
+}
+
+#skull:hover #jaw {
+  transform-origin: top center;
+  animation: jabber .35s ease infinite;
+}
+
+@keyframes jabber { 
+  0%, 50%, 100% { transform: rotateZ(0deg) translateY(0px); }
+  33% { top: 1px; transform: rotateZ(-.5deg) translateY(10px); }
+  66% { top: 1px; transform: rotateZ(.5deg) translateY(8px); }
 }
 
 /* boxes for dayyyyyyyyys */
