@@ -32,3 +32,6 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+// ////////////////////// //
+// ANIMATION FOR NAV BAR //
+// ///////////////////// //
