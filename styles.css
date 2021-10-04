@@ -160,8 +160,20 @@ p {
 /* ********************* */
 /* Pharaoh heading text */
 /* ******************** */
-p1 span {
+body { font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
 
+p1 {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	padding: 1.5em 0em;
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+}
+
+p1 span {
 	font: 700 5em/1 "Oswald", sans-serif;
 	letter-spacing: 50;
 	padding: .25em 0 .325em;
@@ -177,7 +189,7 @@ p1 span {
 /* Animate Background Image */
 
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: aitf 10s linear infinite;
+	-webkit-animation: aitf 18s linear infinite;
 
 /* Activate hardware acceleration for smoother animations */
 
@@ -192,7 +204,6 @@ p1 span {
 	100% { background-position: 250% 50%; }
   0% { background-position: -100% 50%; }
 }
-
 /* ***************************** */
 /* end Pharaoh heading text */
 /* ******************************/
