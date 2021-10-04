@@ -11465,6 +11465,7 @@ section.resume-section {
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {
+  margin: 50px;
   width: 100%;
 }
 
