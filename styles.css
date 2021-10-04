@@ -161,7 +161,11 @@ p {
 /* Pharaoh heading text */
 /* ******************** */
 body { 
-  font: 1vw "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
+  font: 1vw "Neuton"; 
+	background: url(https://unsplash.it/1800/800?image=893); 
+	color: rgba(255,255,255,.25); 
+	text-align: center; 
+	margin: 0 }
 
 p1 {
 	text-transform: uppercase;
