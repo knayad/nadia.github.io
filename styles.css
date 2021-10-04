@@ -218,6 +218,20 @@ p1 span {
 /* end Pharaoh heading text */
 /* ******************************/
 
+/* ***************************** */
+/* 	YOUTUBE CONTAINER	 */
+/* ******************************/
+
+iframe-container{
+	position: relative;
+	width: 2vw;
+	height:1vw;
+	padding: 10px;	
+}
+/* ***************************** */
+/*  	END YOUTUBE CONTAINER	 */
+/* ******************************/
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
