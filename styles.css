@@ -11371,6 +11371,8 @@ p.lead {
   font-weight: 500;
   font-size: 1.5rem;
   padding: 50px;
+  color: url("https://www.eso.org/public/archives/images/screen/eso1205a.jpg");
+  word-wrap: normal;
 }
 
 #sideNav {
