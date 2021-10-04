@@ -7761,6 +7761,7 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  background: url("https://www.eso.org/public/archives/images/screen/eso1205a.jpg")
 }
 
 .text-secondary {
