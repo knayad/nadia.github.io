@@ -160,7 +160,7 @@ p {
 /* ********************* */
 /* Pharaoh heading text */
 /* ******************** */
-body { font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
+body { font: 1em "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
 
 p {
 	text-transform: uppercase;
