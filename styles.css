@@ -160,6 +160,12 @@ p {
 /* ********************* */
 /* Pharaoh heading text */
 /* ******************** */
+my-name{
+	padding: 10px;
+        height:45px;
+        line-height: 45px;
+}
+  
 body { 
   font: 1vw "Neuton"; 
 /* 	background: url(https://unsplash.it/1800/800?image=893);  */
