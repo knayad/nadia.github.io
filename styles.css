@@ -161,14 +161,14 @@ p {
 /* Pharaoh heading text */
 /* ******************** */
 header-nav-container{
-        width: 60vw;
+	width: 60vw;
         height: 30vw;
         position: relative;
         margin: 5px;
+        z-index: 10;
 	display: flex;
         flex-direction: row;
-        }
-      }
+}
 
 my-name{
 	padding: 10px;
