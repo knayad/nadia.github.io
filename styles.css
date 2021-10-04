@@ -162,7 +162,7 @@ p {
 /* ******************** */
 body { 
   font: 1vw "Neuton"; 
-	background: url(https://unsplash.it/1800/800?image=893); 
+/* 	background: url(https://unsplash.it/1800/800?image=893);  */
 	color: rgba(255,255,255,.25); 
 	text-align: center; 
 	margin: 0 }
