@@ -165,6 +165,9 @@ header-nav-container{
         height: 30vw;
         position: relative;
         margin: 5px;
+	display: flex;
+        flex-direction: row;
+        }
       }
 
 my-name{
