@@ -160,43 +160,6 @@ p {
 /* ********************* */
 /* Pharaoh heading text */
 /* ******************** */
-header-nav-container{
-	width: 60vw;
-        height: 30vw;
-        position: relative;
-        margin: 5px;
-        z-index: 10;
-	display: flex;
-        flex-direction: row;
-}
-
-my-name{
-	padding: 10px;
-        height:45px;
-        line-height: 45px;
-}
-  
-body { 
-  font: 1vw "Neuton"; 
-/* 	background: url(https://unsplash.it/1800/800?image=893);  */
-	color: rgba(255,255,255,.25); 
-	text-align: center; 
-	margin: 0 }
-
-p1 {
-	text-transform: uppercase;
-	letter-spacing: .5em;
-	display: inline-block;
-	border: 4px double rgba(255,255,255,.25);
-	border-width: 4px 0;
-	padding: 1.5em 0em;
-	position: absolute;
-	top: 18%;
-	left: 50%;
-	width: 40em;
-	margin: 0 0 0 -20em;
-}
-
 p1 span {
 
 	font: 700 5em/1 "Oswald", sans-serif;
@@ -208,7 +171,7 @@ p1 span {
 
 /* Clip Background Image */
 
-	background: url(http://static.colourlovers.com/uploads/images/4/44/44982.pic.jpg) repeat-y;
+	background: url(https://www.eso.org/public/archives/images/screen/eso1205a.jpg) repeat-y;
 	-webkit-background-clip: text;
 
 /* Animate Background Image */
