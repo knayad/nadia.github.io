@@ -160,6 +160,13 @@ p {
 /* ********************* */
 /* Pharaoh heading text */
 /* ******************** */
+header-nav-container{
+        width: 60vw;
+        height: 30vw;
+        position: relative;
+        margin: 5px;
+      }
+
 my-name{
 	padding: 10px;
         height:45px;
