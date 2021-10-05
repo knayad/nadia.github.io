@@ -179,7 +179,7 @@ p1 {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
-  font-size: calc(.5rem + 5.7vw);
+  font-size: calc(.5rem + 4.7vw);
   letter-spacing: .5em;
   padding: 5px;
   text-align: center;
