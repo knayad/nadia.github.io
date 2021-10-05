@@ -245,9 +245,10 @@ iframe-container{
 /* ///////////////////////////// */
 	/* more texts */
 /* //////////////////////////// */
+
 p2{
   text-transform: uppercase;
-  font-size: 65%;
+  font-size: 35%;
   letter-spacing: .5em;
   padding: 10px;
   position: relative;
@@ -255,7 +256,7 @@ p2{
   top: 0%;
   left: 65%;
   width: 60%;
-  margin-left:70%;
+  margin-left:80%;
   margin: 0 0 0 -20em;
 }
 
