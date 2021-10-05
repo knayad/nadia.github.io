@@ -267,7 +267,7 @@ p2{
 div.steelBlueCols {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   border: 0px solid #000000;
-  background-color: #353535;
+  background-color: url(http://www.eso.org/public/archives/images/screen/eso1205a.jpg), #072B35;
   width: 400px;
   text-align: center;
 }
@@ -309,6 +309,8 @@ div.steelBlueCols {
 .divTableHeading { display: table-header-group;}
 .divTableFoot { display: table-footer-group;}
 .divTableBody { display: table-row-group;}
+
+/*  end table */
 
 /*  ***********************/
 /* HIRE TRACY BREEN (below:)*/
