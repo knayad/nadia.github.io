@@ -195,15 +195,18 @@ p1 span {
 	margin: 0 auto;
 	text-shadow: 0 0 80px rgba(255,255,255,.5);
 
-/* Clip Background Image */
+  background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg') repeat-y;
 
-	background: url(https://www.eso.org/public/archives/images/screen/eso1205a.jpg) repeat-y;
+	--bs-bg-opacity: 1;
+	background-color: rgba(var(--bs-gray-900)), !important;
+	
+/* Clip Background Image */
 	-webkit-background-clip: text;
 
 /* Animate Background Image */
 
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: 8s cubic-bezier(0.1, 0.3, .5, 0.1) infinite;
+	-webkit-animation: aitf 3s linear infinite;
 
 /* Activate hardware acceleration for smoother animations */
 
@@ -7708,21 +7711,33 @@ body {
   background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg');
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-gray-900)), !important;
+  background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg') repeat-y;
+	--bs-bg-opacity: 1;
+	background-color: rgba(var(--bs-gray-900)), !important;
+	
 /* Clip Background Image */
-
-	background: url(https://www.eso.org/public/archives/images/screen/eso1205a.jpg) repeat-y;
 	-webkit-background-clip: text;
 
 /* Animate Background Image */
 
-	-webkit-text-fill-color: solid;
-	-webkit-animation: aitf 8s cubic-bezier(0.1, 0.3, .5, 0.1) infinite;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: aitf 3s linear infinite;
 
 /* Activate hardware acceleration for smoother animations */
 
 	-webkit-transform: translate3d(0,0,0);
 	-webkit-backface-visibility: hidden;
 }
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: -200% 50%; }
+	100% { background-position: 250% 50%; }
+  0% { background-position: -100% 50%; }
+}
+
+/* end bg-primary */
 
 .bg-secondary {
   --bs-bg-opacity: 1;
