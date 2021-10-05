@@ -7704,7 +7704,7 @@ body {
 .bg-primary {
   background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg');
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-gray-900)), rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-gray-900)), !important;
 /* Clip Background Image */
 
 	background: url(https://www.eso.org/public/archives/images/screen/eso1205a.jpg) repeat-y;
@@ -7712,7 +7712,7 @@ body {
 
 /* Animate Background Image */
 
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: solid;
 	-webkit-animation: aitf 8s cubic-bezier(0.1, 0.3, .5, 0.1) infinite;
 
 /* Activate hardware acceleration for smoother animations */
