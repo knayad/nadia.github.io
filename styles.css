@@ -164,11 +164,6 @@ p {
 /* ********************* */
 /* Pharaoh heading text */
 /* ******************** */
-right-box{
-  flex-grow: 3;
-  content-align: center;
-}
-
 body { 
   font: 2em "Neuton"; 
   color: black; 
@@ -248,7 +243,7 @@ iframe-container{
 
 p2{
   text-transform: uppercase;
-  font-size: 35%;
+  font-size: 40%;
   letter-spacing: .5em;
   padding: 10px;
   position: relative;
@@ -11152,7 +11147,7 @@ p.lead {
   }
 }
 .social-icons .social-icon {
-  display: block;
+  display: inline;
   align-items: center;
   justify-content: center;
   height: 3.5rem;
@@ -11165,8 +11160,10 @@ p.lead {
   margin-bottom: 10px;	
 }
 .social-icons .social-icon:last-child {
-  margin-right: 0;
-  margin-left: 50%;
+  margin-right: 75%;
+  margin-left: 25%;
+  
+  
 }
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
