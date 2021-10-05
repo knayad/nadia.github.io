@@ -166,19 +166,20 @@ p {
 /* ******************** */
 right-box{
   flex-grow: 3;
-  content-align: right;
+  content-align: center;
 }
 
 body { 
   font: 2em "Neuton"; 
   color: black; 
-  text-align: right; 
+  content-align: right; 
   margin: 0; 
 }
 
 p1 {
   text-transform: uppercase;
   font-size: 75%;
+  text-align: center;
   letter-spacing: .5em;
   padding: 10px;
   position: relative;
@@ -192,9 +193,10 @@ p1 {
 
 p1 span {
 	font: 700 2em/1 "Oswald", sans-serif;
+	text-align: center;
 	letter-spacing: 50;
 	display: block;
-	margin-left: 80%
+	margin-left: 80%;
 	margin: 0 auto;
 	text-shadow: 0 0 80px rgba(255,255,255,.5);
 
