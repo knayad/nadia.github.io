@@ -242,8 +242,10 @@ iframe-container{
 /* //////////////////////////// */
 
 p2{
+  font: 1em "Neuton";
   text-transform: uppercase;
-  font-size: 40%;
+  text-align: center;
+/*   font-size: 40%; */
   letter-spacing: .5em;
   padding: 10px;
   position: relative;
