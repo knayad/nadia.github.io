@@ -172,7 +172,8 @@ body {
 }
 
 p1 {
-  margin: left;
+  margin: center;
+  left: 15%;
   margin-bottom: 0.5rem;
   font-family: "Neuton";
   font-weight: 700;
