@@ -203,7 +203,7 @@ p1 span {
 /* Animate Background Image */
 
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: aitf 8s cubic-bezier(0.1, 0.3, .5, 0.1) infinite;
+	-webkit-animation: 8s cubic-bezier(0.1, 0.3, .5, 0.1) infinite;
 
 /* Activate hardware acceleration for smoother animations */
 
