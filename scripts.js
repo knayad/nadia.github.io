@@ -37,19 +37,18 @@ window.addEventListener('DOMContentLoaded', event => {
 // ///////////////////// //
 
 (function() {
-    var width, height, sideNav, canvas, ctx, points, target, animateHeader = true;
+    var width, height, canvas, ctx, points, target, animateHeader = true;
 
     // Main
 
     initAnimation();
     addListeners();
 
-        sideNav = document.getElementById('sideNav');
+        canvas = document.getElementById('sideNav');
         height = sideNav.innerHeight;
         width = sideNav.innerWidth;
         sideNav.style.height = height+'px';
 
-        canvas = document.getElementById('sideNav');
         canvas.width = width;
         canvas.height = height;
         ctx = canvas.getContext('2d');
