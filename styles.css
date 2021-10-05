@@ -255,6 +255,82 @@ p2{
   margin: 0 0 0 -20em;
 }
 
+/* end texts */
+
+/*  ***********************/
+/* HIRE TRACY BREEN (below:)*/
+/* ***********************/
+/* Languages */
+.languages .flex {
+  flex-wrap: wrap;
+}
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in; /* this makes the bouncy card situation a little nicer to look at -- it eases in to the transition over 2/10ths of a second. */
+}
+
+.languages .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.languages .card:hover {
+  transform: translateY(-15px); /* makes the little cards bounce up a tiny bit when you hover over them  ... but it's a little too abrupt so we'll go back up a few lines to .languages .card and add a transition ^^ */
+}
+
+/* Features */
+.features-head img, .docs-head img {
+  width: 200px;
+  justify-self: flex-end;
+}
+
+.features-sub-head img {
+  width: 300px;
+  justify-self: flex-end;
+}
+
+.features-main .card > i { /* styles the icons inside the feature cards */
+margin-right: 20px;
+}
+
+.features-main .grid {
+  padding: 0 30px;
+}
+
+.features-main .grid > *:first-child {
+  grid-column: 1 / span 3;
+}
+
+.features-main .grid > *:nth-child(2) { /* this allows us to choose any child by putting the number of the child in the parentheses */
+  grid-column: 1 / span 2;
+}
+
+/* Docs */
+.docs-main h3 {
+  margin: 20px 0;
+}
+
+.docs-main .grid {
+  grid-template-columns: 1fr 2fr; /* causes the 1st card to take half as much space as the second */
+  align-items: flex-start; /* pulls the docs-main cards up to the top of the container */
+}
+
+.docs-main nav li {
+  font-size: 17px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid cadetblue;
+}
+
+.docs-main a:hover {
+  font-weight: bold;
+}
+/* *****************************
+/* END CREDIT TO TRACY BREEN */
+/* ****************************
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
