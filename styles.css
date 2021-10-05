@@ -7212,7 +7212,6 @@ body {
 }
 
 .mb-5 {
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
   margin-bottom: 3rem !important;
 }
 
