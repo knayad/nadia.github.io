@@ -164,6 +164,11 @@ p {
 /* ********************* */
 /* Pharaoh heading text */
 /* ******************** */
+right-box{
+  flex-grow: 3;
+  content-align: right;
+}
+
 body { 
   font: 2em "Neuton"; 
   color: black; 
