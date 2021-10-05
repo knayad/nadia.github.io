@@ -178,7 +178,7 @@ p1 {
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
-  font-size: calc(1.rem + 5.7vw);
+  font-size: calc(.5rem + 5.7vw);
   letter-spacing: .5em;
   padding: 5px;
   margin: 0 0 0 -20em;
