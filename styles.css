@@ -11219,7 +11219,7 @@ p.lead {
   }
 }
 .social-icons .social-icon {
-  display: inline;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   height: 3.5rem;
@@ -11229,13 +11229,9 @@ p.lead {
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
-  margin-bottom: 10px;	
 }
 .social-icons .social-icon:last-child {
-  margin-right: 75%;
-  margin-left: 25%;
-  
-  
+  margin-right: 0;
 }
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
