@@ -274,9 +274,9 @@ p2{
 	display: table-header-group;
 }
 .divTable1Cell, .divTable1Head {
-	border: 1px solid #999999;
+/* 	border: 1px solid #999999; */
 	display: table-cell;
-	padding: 3px 10px;
+	padding: 3px 2=3px;
 }
 .divTable1Heading {
 	background-color: #EEE;
