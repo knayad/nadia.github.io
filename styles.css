@@ -11142,8 +11142,8 @@ p.lead {
 }
 .social-icons .social-icon {
   display: inline-flex;
-  align-items: right;
-  justify-content: right;
+  align-items: center;
+  justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
   background-color: #495057;
@@ -11155,6 +11155,7 @@ p.lead {
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
+  margin-left: 50%;
 }
 .social-icons .social-icon:hover {
   background-color: #bd5d38;
