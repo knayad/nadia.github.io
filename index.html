@@ -90,230 +90,51 @@
 
             </section>
             </div>
+<!--      ///////////////////////////          -->
+<!--         CAROUSEL/ SPINNER         -->
+<!--    //////////////////////////////              -->
+  <div id="carouselExampleIndicators" class="carousel slide  vertical" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/LAaSoL0LrYs/1920x1080')">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="display-4">First Slide</h2>
+        <p class="lead">This is a description for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="display-4">Second Slide</h2>
+        <p class="lead">This is a description for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="display-4">Third Slide</h2>
+        <p class="lead">This is a description for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev up" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <i class="fas fa-chevron-up fa-2x" aria-hidden="true"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+  <a class="carousel-control-next down" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <i class="fas fa-chevron-down fa-2x" aria-hidden="true"></i>
+          <span class="sr-only">Next</span>
+        </a>
+</div>
+               
+<!-- /////////////////////////////////// -->
+        <!--    end carousel -->
+<!-- /////////////////////////////////// -->
             
     
-                <section>
-                    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        
-        <title>Slider</title>
-    </head>
-    <body>
-        <div class="container"> 
-            <div class="slider">
-
-                <div class="box1 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>I'm the first Box</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
-                        </p>
-                        <button>Check Now</button>
-                    </div>
-
-                    <div class="illustration"><div class="inner"></div></div>
-                </div>
-                                
-                
-                <div class="box2 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>I'm the second Box</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
-                        </p>
-                        <button>Check Now</button>
-                    </div>
-
-                    <div class="illustration"><div class="inner"></div></div>
-                </div>
-                                
-                <div class="box3 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>I'm the third Box</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
-                        </p>
-                        <button>Check Now</button>
-                    </div>
-
-                    <div class="illustration"><div class="inner"></div></div>
-                </div>
-                                
-                <div class="box4 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>I'm the fourth Box</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
-                        </p>
-                        <button>Check Now</button>
-                    </div>
-
-                    <div class="illustration"><div class="inner"></div></div>
-                </div>
-                                
-                <div class="box5 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>I'm the fifth Box</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
-                        </p>
-                        <button>Check Now</button>
-                    </div>
-
-                    <div class="illustration"><div class="inner"></div></div>
-                </div>
-                                
-            </div>
-
-            <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff"/></svg>
-            <div class="trail">
-                    <div class="box1 active">1</div>
-                    <div class="box2">2</div>
-                    <div class="box3">3</div>
-                    <div class="box4">4</div>
-                    <div class="box5">5</div>
-            </div>
-        </div>   
-        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
-        
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/CSSRulePlugin.min.js"></script> -->
-        <script src="script.js"></script>
-    </body>
-</html><html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        
-<!--         <title>Slider</title> -->
-        
-        <div class="container"> 
-            <div class="slider">
-
-                <div class="box1 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>I'm the first Box</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
-                        </p>
-                        <button>Check Now</button>
-                    </div>
-
-                    <div class="illustration"><div class="inner"></div></div>
-                </div>
-                                
-                
-                <div class="box2 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>I'm the second Box</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
-                        </p>
-                        <button>Check Now</button>
-                    </div>
-
-                    <div class="illustration"><div class="inner"></div></div>
-                </div>
-                                
-                <div class="box3 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>I'm the third Box</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
-                        </p>
-                        <button>Check Now</button>
-                    </div>
-
-                    <div class="illustration"><div class="inner"></div></div>
-                </div>
-                                
-                <div class="box4 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>I'm the fourth Box</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
-                        </p>
-                        <button>Check Now</button>
-                    </div>
-
-                    <div class="illustration"><div class="inner"></div></div>
-                </div>
-                                
-                <div class="box5 box">
-                    <div class="bg"></div>
-                    <div class="details">
-                        <h1>I'm the fifth Box</h1>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
-                        </p>
-                        <button>Check Now</button>
-                    </div>
-
-                    <div class="illustration"><div class="inner"></div></div>
-                </div>
-                                
-            </div>
-
-            <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff"/></svg>
-            <div class="trail">
-                    <div class="box1 active">1</div>
-                    <div class="box2">2</div>
-                    <div class="box3">3</div>
-                    <div class="box4">4</div>
-                    <div class="box5">5</div>
-            </div>
-        </div>   
-        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
-        
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.2/CSSRulePlugin.min.js"></script> -->
-        <script src="script.js"></script>
- 
-                </section>
- 
+  
                     <section>
             <hr class="m-0" />
             <!-- Experience-->
