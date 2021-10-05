@@ -173,7 +173,7 @@ body {
 
 p1 {
   margin: center;
-  left: 15%;
+  left: 25%;
   margin-bottom: 0.5rem;
   font-family: "Neuton";
   font-weight: 700;
@@ -182,7 +182,7 @@ p1 {
   font-size: calc(.5rem + 5.7vw);
   letter-spacing: .5em;
   padding: 5px;
-  margin: 0 0 0 -20em;
+  text-align: center;
 }
 
 
