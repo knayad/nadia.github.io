@@ -173,7 +173,7 @@ body {
 
 p1 {
   text-transform: uppercase;
-  font-size: 55%;
+  font-size: 75%;
   letter-spacing: .5em;
   padding: 10px;
   position: relative;
@@ -181,7 +181,7 @@ p1 {
   top: 0%;
   left: 65%;
   width: 60%;
-  margin-left:70%;
+  margin-left:80%;
   margin: 0 0 0 -20em;
 }
 
@@ -189,6 +189,7 @@ p1 span {
 	font: 700 2em/1 "Oswald", sans-serif;
 	letter-spacing: 50;
 	display: block;
+	margin-left: 80%
 	margin: 0 auto;
 	text-shadow: 0 0 80px rgba(255,255,255,.5);
 
@@ -234,10 +235,12 @@ iframe-container{
 /*  	END YOUTUBE CONTAINER	 */
 /* ******************************/
 
-/* more texts */
+/* ///////////////////////////// */
+	/* more texts */
+/* //////////////////////////// */
 p2{
   text-transform: uppercase;
-  font-size: 35%;
+  font-size: 65%;
   letter-spacing: .5em;
   padding: 10px;
   position: relative;
