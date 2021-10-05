@@ -390,6 +390,9 @@ margin-right: 20px;
   object-fit: scale-down;
 }
 
+.object-cover {
+  object-fit: cover;
+}
 
 abbr[title],
 abbr[data-bs-original-title] {
