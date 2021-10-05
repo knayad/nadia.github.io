@@ -330,10 +330,8 @@ margin-right: 20px;
 /* END CREDIT TO TRACY BREEN */
 /* **************************** */
 
-contain-fit{
-height: 100%;
-width: 100%;
-object-fit: contain;
+.scale-down {
+  object-fit: scale-down;
 }
 
 
