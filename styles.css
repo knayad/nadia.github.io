@@ -267,7 +267,7 @@ p2{
 div.steelBlueCols {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   border: 0px solid #000000;
-  background-color: url(http://www.eso.org/public/archives/images/screen/eso1205a.jpg), #072B35;
+  background: #072B35;
   width: 400px;
   text-align: center;
 }
@@ -7705,6 +7705,20 @@ body {
   background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg');
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+/* Clip Background Image */
+
+	background: url(https://www.eso.org/public/archives/images/screen/eso1205a.jpg) repeat-y;
+	-webkit-background-clip: text;
+
+/* Animate Background Image */
+
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: aitf 8s cubic-bezier(0.1, 0.3, .5, 0.1) infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	-webkit-transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
 }
 
 .bg-secondary {
@@ -11294,7 +11308,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: url(https://www.eso.org/public/archives/images/screen/eso1205a.jpg);
+  background-image: url(https://www.eso.org/public/archives/images/screen/eso1205a.jpg);
 }
 
 .dev-icons {
