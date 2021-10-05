@@ -7115,7 +7115,7 @@ body {
 }
 
 .mb-5 {
-  color: url(https://www.eso.org/public/archives/images/screen/eso1205a.jpg)
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
   margin-bottom: 3rem !important;
 }
 
@@ -7456,7 +7456,7 @@ body {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: url(https://www.eso.org/public/archives/images/screen/eso1205a.jpg), rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-secondary {
