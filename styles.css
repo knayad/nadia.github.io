@@ -173,10 +173,10 @@ body {
 
 p1 {
   text-transform: uppercase;
-  font-size: 30%;
+  font-size: 45%;
   letter-spacing: .5em;
   padding: 10px;
-  position: absolute;
+  position: relative;
   right: 0;
   top: 0%;
   left: 65%;
