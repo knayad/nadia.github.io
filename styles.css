@@ -242,7 +242,7 @@ iframe-container{
 /* //////////////////////////// */
 
 p2{
-  font: 1em "Neuton";
+  font: .5em "Neuton";
   text-transform: uppercase;
   text-align: center;
   font-size: calc(.5rem + 5.7vw);
@@ -261,38 +261,54 @@ p2{
 
 /* ****************** */
 /***  DivTable.com  ***/
-/* TABLE ONE COMP LANG */
+/* TABLE LANG/ capabilities */
 /*  ****************** */
 
-.divTable1{
-	display: table;
-	width: 100%;
+div.steelBlueCols {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  border: 0px solid #000000;
+  background-color: #353535;
+  width: 400px;
+  text-align: center;
 }
-.divTable1Row {
-	display: table-row;
+.divTable.steelBlueCols .divTableCell, .divTable.steelBlueCols .divTableHead {
+  border: 1px solid #3B3B3B;
+  padding: 3px 5px;
 }
-.divTable1Heading {
-	background-color: #EEE;
-	display: table-header-group;
+.divTable.steelBlueCols .divTableBody .divTableCell {
+  font-size: 12px;
+  color: #F1F3FF;
 }
-.divTable1Cell, .divTable1Head {
-/* 	border: 1px solid #999999; */
-	display: table-cell;
-	padding: 3px 2=3px;
+.divTable.steelBlueCols .divTableRow:nth-child(even) {
+  background: #419EBC;
 }
-.divTable1Heading {
-	background-color: #EEE;
-	display: table-header-group;
-	font-weight: bold;
+.steelBlueCols .tableFootStyle {
+  font-size: 13px;
 }
-.divTable1Foot {
-	background-color: #EEE;
-	display: table-footer-group;
-	font-weight: bold;
+.steelBlueCols .tableFootStyle .links {
+	 text-align: right;
 }
-.divTable1Body {
-	display: table-row-group;
+.steelBlueCols .tableFootStyle .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #398AA4;
+  padding: 2px 8px;
+  border-radius: 5px;
 }
+.steelBlueCols.outerTableFooter {
+  border-top: none;
+}
+.steelBlueCols.outerTableFooter .tableFootStyle {
+  padding: 3px 5px; 
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
 
 /*  ***********************/
 /* HIRE TRACY BREEN (below:)*/
