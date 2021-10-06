@@ -276,7 +276,7 @@ div.steelBlueCols {
   text-align: center;
 }
 .divTable.steelBlueCols .divTableCell, .divTable.steelBlueCols .divTableHead {
-/*   border: 1px solid #3B3B3B; */
+  border: 1px solid #3B3B3B;
   padding: 3px 5px;
 }
 .divTable.steelBlueCols .divTableBody .divTableCell {
@@ -297,7 +297,7 @@ div.steelBlueCols {
   background: #FFFFFF;
   color: #398AA4;
   padding: 2px 8px;
-/*   border-radius: 5px; */
+  border-radius: 5px;
 }
 .steelBlueCols.outerTableFooter {
   border-top: none;
