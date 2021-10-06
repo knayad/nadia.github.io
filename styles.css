@@ -7724,8 +7724,8 @@ body {
 /* Animate Background Image */
 
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: aitf 12s linear infinite;
-
+	-webkit-animation: aitf 18s linear infinite;
+	
 /* Activate hardware acceleration for smoother animations */
 
 	-webkit-transform: translate3d(0,0,0);
