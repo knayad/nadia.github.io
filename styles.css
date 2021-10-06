@@ -285,7 +285,7 @@ div.steelBlueCols {
 }
 .divTable.steelBlueCols .divTableBody .divTableCell {
   font-size: 12px;
-  color: #F1F3FF;
+  color: #adb5bd;
 }
 .divTable.steelBlueCols .divTableRow:nth-child(even) {
   background: #419EBC;
