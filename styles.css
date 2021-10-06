@@ -285,7 +285,8 @@ div.steelBlueCols {
 }
 .divTable.steelBlueCols .divTableBody .divTableCell {
   font-size: 12px;
-  color: #adb5bd;
+  color: ##db54af;
+  font-family: 'Teko', sans-serif;
 }
 .divTable.steelBlueCols .divTableRow:nth-child(even) {
   background: #419EBC;
@@ -11268,6 +11269,7 @@ p.lead {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
+  color: #201e1f
 }
 
 #sideNav {
