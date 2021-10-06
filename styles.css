@@ -342,7 +342,8 @@ div.steelBlueCols {
 /* Features */
 .features-head img, .docs-head img {
   width: 200px;
-  justify-self: flex-end;
+/*   justify-self: flex-end; <-- TB*/
+  justify-self: stretch;
 }
 
 .features-sub-head img {
