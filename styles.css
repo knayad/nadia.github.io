@@ -395,7 +395,7 @@ margin-right: 20px;
 /* *****************************
 /* END CREDIT TO TRACY BREEN */
 /* **************************** */
-
+/*  object fits*/
 .scale-down {
   object-fit: scale-down;
 }
@@ -403,6 +403,12 @@ margin-right: 20px;
 .object-cover {
   object-fit: cover;
 }
+
+.obj-contain{
+  object-fit: contain;
+}
+
+/* end obj fits */
 
 abbr[title],
 abbr[data-bs-original-title] {
