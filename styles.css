@@ -331,6 +331,24 @@ div.steelBlueCols {
 /* HIRE TRACY BREEN (below:)*/
 /* ***********************/
 /* Languages */
+
+.flex {
+  display: flex;
+  justify-content: center; /*always pertains to main axis -- if we were using flex-direction: column then the main axis would be a column */
+  /* also we will use space-between -- but we don't want it everywhere - just for the navbar, so we'll do that separately. */
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* adds space between grid columns */
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* adding this makes the grid take up the whole container (which is the 400px showcase jawn from before) so that the form and the showcase text won't be smooshed up top  --- it didn't do it before because we didn't have a height listed  for the container */
+}
+
 .languages .flex {
   flex-wrap: wrap;
 }
