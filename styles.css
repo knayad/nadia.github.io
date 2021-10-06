@@ -206,7 +206,7 @@ p1 span {
 /* Animate Background Image */
 
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: aitf 9s linear infinite;
+	-webkit-animation: aitf 15s linear infinite;
 
 /* Activate hardware acceleration for smoother animations */
 
@@ -232,7 +232,7 @@ p1 span {
 
 iframe-container{
 	position: relative;
-	content-align: center;
+	content-align: right;
 	width: 2vw;
 	height:1vw;
 	padding: 10px;	
