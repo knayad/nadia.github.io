@@ -7711,6 +7711,7 @@ body {
   background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg');
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-gray-900)), !important;
+  transition-timing-function: cubic-bezier(0.1, 0.5, .2, 0.1);
   background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg') repeat-y;
 	--bs-bg-opacity: 1;
 	background-color: rgba(var(--bs-gray-900)), !important;
@@ -7721,7 +7722,7 @@ body {
 /* Animate Background Image */
 
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: aitf 3s linear infinite;
+	-webkit-animation: aitf 12s linear infinite;
 
 /* Activate hardware acceleration for smoother animations */
 
@@ -7734,7 +7735,7 @@ body {
 @-webkit-keyframes aitf {
 	0% { background-position: -200% 50%; }
 	100% { background-position: 250% 50%; }
-  0% { background-position: -100% 50%; }
+ 	 0% { background-position: -100% 50%; }
 }
 
 /* end bg-primary */
