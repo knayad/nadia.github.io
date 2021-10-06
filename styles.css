@@ -270,7 +270,7 @@ p2{
 
 div.steelBlueCols {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-/*   border: 0px solid #000000; */
+  border: 0px solid #000000;
   background: #072B35;
   width: 400px;
   text-align: center;
