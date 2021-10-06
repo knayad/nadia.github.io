@@ -324,7 +324,7 @@ div.steelBlueCols {
   flex-wrap: wrap;
 }
 
-.languages .card {
+.languages .card h4{
   text-align: center;
   margin: 18px 10px 40px;
   transition: transform 0.2s ease-in; /* this makes the bouncy card situation a little nicer to look at -- it eases in to the transition over 2/10ths of a second. */
