@@ -272,6 +272,12 @@ p2{
 /* TABLE LANG/ capabilities */
 /*  ****************** */
 
+.langlogo {
+  object-fit: contain;
+  width: 80px;
+  height: 80px;
+}
+
 div.steelBlueCols {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   border: 0px solid #000000;
