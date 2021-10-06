@@ -11325,6 +11325,7 @@ p.lead {
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
+  margin-top: 15px;
 }
 .social-icons .social-icon:hover {
   background-image: url(https://www.eso.org/public/archives/images/screen/eso1205a.jpg);
