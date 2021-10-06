@@ -330,7 +330,7 @@ div.steelBlueCols {
   transition: transform 0.2s ease-in; /* this makes the bouncy card situation a little nicer to look at -- it eases in to the transition over 2/10ths of a second. */
 }
 
-.languages .card h4 {
+.languages .card {
   font-size: 20px;
   margin-bottom: 10px;
 }
