@@ -433,6 +433,10 @@ margin-right: 20px;
   object-fit: contain;
 }
 
+.just-divs{
+  justify-content: start;
+}
+
 /* end obj fits */
 
 abbr[title],
