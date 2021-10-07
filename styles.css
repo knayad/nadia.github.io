@@ -240,6 +240,9 @@ iframe-container{
 	width: 2vw;
 	height:1vw;
 	padding: 10px;	
+	display: flex;
+   	align-items: center;
+    	justify-content: center;
 }
 /* ***************************** */
 /*  	END YOUTUBE CONTAINER	 */
