@@ -243,6 +243,7 @@ iframe-container{
 	display: flex;
    	align-items: center;
     	justify-content: center;
+	margin-left: 1em;
 }
 /* ***************************** */
 /*  	END YOUTUBE CONTAINER	 */
