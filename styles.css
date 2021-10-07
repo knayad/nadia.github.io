@@ -441,6 +441,9 @@ margin-right: 20px;
   justify-content: space-between;
 }
 
+.just-center{
+  justify-content: center;
+}
 /* end obj fits */
 
 abbr[title],
