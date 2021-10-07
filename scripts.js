@@ -218,29 +218,30 @@ window.addEventListener('DOMContentLoaded', event => {
 })();
 
 // ////////////////// //
-// carousel/ spinner //
+  //    carousel   //
 // //////////////// //
 
-$(".carousel").carousel({
-  interval: 3000
+// Instantiate the Bootstrap carousel
+$('.multi-item-carousel').carousel({
+  interval: false
 });
 
-//scroll slides on swipe for touch enabled devices
-$(".carousel").on("touchstart", function(event) {
-  var yClick = event.originalEvent.touches[0].pageY;
-  $(this).one("touchmove", function(event) {
-    var yMove = event.originalEvent.touches[0].pageY;
-    if (Math.floor(yClick - yMove) > 1) {
-      $(".carousel").carousel("next");
-    } else if (Math.floor(yClick - yMove) < -1) {
-      $(".carousel").carousel("prev");
-    }
-  });
-  $(".carousel").on("touchend", function() {
-    $(this).off("touchmove");
-  });
+// for every slide in carousel, copy the next slide's item in the slide.
+// Do the same for the next, next item.
+$('.multi-item-carousel .item').each(function(){
+  var next = $(this).next();
+  if (!next.length) {
+    next = $(this).siblings(':first');
+  }
+  next.children(':first-child').clone().appendTo($(this));
+  
+  if (next.next().length>0) {
+    next.next().children(':first-child').clone().appendTo($(this));
+  } else {
+  	$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+  }
 });
 
 // ////////////////////// //
-// end  carousel/ spinner//
+//      end  carousel    //
 // ///////////////////// //
