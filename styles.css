@@ -278,12 +278,11 @@ KOPen{
 /*   PHONE NUMBER  */
 /* *************** */
 
-#phone-number {
+#phone-number .bg-primary {
   width: 100%;
   padding: 50px 0;
   text-align: center;
   color: white;
-  background-color: bg-primary;
   margin-top: 20px;
 }
 
