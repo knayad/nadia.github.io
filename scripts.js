@@ -245,3 +245,16 @@ $('.multi-item-carousel .item').each(function(){
 // ////////////////////// //
 //      end  carousel    //
 // ///////////////////// //
+
+// //////////////////// //
+//  phone function     //
+// /////////////////// //
+
+function phoneNumber() {
+  var x = document.getElementById("phone-number");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
