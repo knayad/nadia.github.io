@@ -270,7 +270,7 @@ p2{
 }
 
 KOPen{
-	font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Nanum Pen Script', cursive;
 }
 /* end texts */
 
@@ -278,7 +278,7 @@ KOPen{
 /*   PHONE NUMBER  */
 /* *************** */
 
-#phone-number .bg-primary {
+#phone-number, .bg-primary {
   width: 100%;
   padding: 50px 0;
   text-align: center;
