@@ -253,14 +253,15 @@ $('.multi-item-carousel .item').each(function(){
 
 // Script to hide/show menu
 var button = document.document.getElementById('contact-button');
-var menu = document.document.getElementById('contact');
+
 button.addEventListener('click', function (event) {
-      if (menu.style.display == "") {
-          menu.style.display = "none";
-          button.innerHTML = "Show info";
-      } else {
-          menu.style.display = "";
-          button.innerHTML = "Hide info";
-      }
+
+    var next = this.nextElementSibling;
+
+    if (next.style.display == "none") {
+        next.style.display = "block";
+
+    } else {
+        next.style.display = "none";
     }
-  );
+}); 
