@@ -303,43 +303,7 @@ KOPen{
   height: 80px;
 }
 
-div.steelBlueCols {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  border: 0px solid #000000;
-  background: #072B35;
-  width: 400px;
-  text-align: center;
-}
-.divTable.steelBlueCols .divTableCell, .divTable.steelBlueCols .divTableHead {
-  border: 1px solid #3B3B3B;
-  padding: 3px 5px;
-}
-.divTable.steelBlueCols .divTableBody .divTableCell {
-  font-size: 12px;
-  color: ##db54af;
-  font-family: 'Teko', sans-serif;
-}
-.divTable.steelBlueCols .divTableRow:nth-child(even) {
-  background: #419EBC;
-}
-.steelBlueCols .tableFootStyle {
-  font-size: 13px;
-}
-.steelBlueCols .tableFootStyle .links {
-	 text-align: right;
-}
-.steelBlueCols .tableFootStyle .links a{
-  display: inline-block;
-  background: #FFFFFF;
-  color: #398AA4;
-  padding: 2px 8px;
-  border-radius: 5px;
-}
-.steelBlueCols.outerTableFooter {
-  border-top: none;
-}
-.steelBlueCols.outerTableFooter .tableFootStyle {
-  padding: 3px 5px; 
+
 }
 /* DivTable.com */
 .divTable{ display: table; }
