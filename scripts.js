@@ -257,10 +257,10 @@ var menu = document.querySelector('#menu');
 button.addEventListener('click', function (event) {
       if (menu.style.display == "") {
           menu.style.display = "none";
-          button.innerHTML = "Show Menu";
+          button.innerHTML = "Show info";
       } else {
           menu.style.display = "";
-          button.innerHTML = "Hide Menu";
+          button.innerHTML = "Hide info";
       }
     }
   );
