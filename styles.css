@@ -450,6 +450,7 @@ address {
 ol,
 ul {
   padding-left: 2rem;
+  font-family: 
 }
 
 ol,
@@ -464,6 +465,9 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: calc(.5rem + .7vw);
+  text-align: center;
 }
 
 dt {
