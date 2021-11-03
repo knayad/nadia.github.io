@@ -252,8 +252,8 @@ $('.multi-item-carousel .item').each(function(){
 // ///////////////////////// //
 
 // Script to hide/show menu
-var button = document.querySelector('#contact-button');
-var menu = document.querySelector('#contact');
+var button = document.document.getElementById('contact-button');
+var menu = document.document.getElementById('contact');
 button.addEventListener('click', function (event) {
       if (menu.style.display == "") {
           menu.style.display = "none";
