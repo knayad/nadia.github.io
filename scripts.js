@@ -267,3 +267,24 @@ button.addEventListener('click', function (event) {
         next.style.display = "none";
     }
 });
+
+// ///////////////////////// //
+//      LOADING CANVAS      //
+// /////////////////////// //
+
+body {
+    background-color: #fff;
+    margin: 0;
+    overflow: hidden;
+}
+
+#drawing_canvas {
+    position: absolute;
+    margin: auto;
+    width: 512px;
+    height: 350px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
