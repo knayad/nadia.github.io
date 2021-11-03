@@ -253,6 +253,7 @@ $('.multi-item-carousel .item').each(function(){
 
 // Script to hide/show menu
 var button = document.document.getElementById('contact-button');
+var button = document.querySelector('.click-to-toggle');
 
 button.addEventListener('click', function (event) {
 
