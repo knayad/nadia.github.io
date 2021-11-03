@@ -279,6 +279,8 @@ KOPen{
 /* *************** */
 
 #phone-number {
+  display: block;
+  border-radius: 8px;
   background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg');
   text-align: center;
   color: white;
@@ -641,7 +643,9 @@ label {
 }
 
 button {
-  border-radius: 0;
+  border-radius: 8px;
+  background-color: #e7e7e7;
+  color: #f44336;
 }
 
 button:focus:not(:focus-visible) {
