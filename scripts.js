@@ -248,9 +248,19 @@ $('.multi-item-carousel .item').each(function(){
 
 // ///////////////////////// //
 // phone visibility function //
+// https://www.penwatch.net/cms/js_show_hide//
 // ///////////////////////// //
 
-function toggle_visibility(id) {
-var e = document.getElementById(id);
-e.style.display = ((e.style.display!='none') ? 'none' : 'block');
-}
+// Script to hide/show menu
+var button = document.querySelector('#menu-button');
+var menu = document.querySelector('#menu');
+button.addEventListener('click', function (event) {
+      if (menu.style.display == "") {
+          menu.style.display = "none";
+          button.innerHTML = "Show Menu";
+      } else {
+          menu.style.display = "";
+          button.innerHTML = "Hide Menu";
+      }
+    }
+  );
