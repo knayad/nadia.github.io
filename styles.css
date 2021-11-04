@@ -286,6 +286,7 @@ p2{
   text-align: center;
   background-color: lightblue;
   margin-top: 20px;
+  display:none;
 }
 
 .click-to-toggle{
