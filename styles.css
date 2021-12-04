@@ -317,7 +317,8 @@ p2{
 .divTable{ display: table; }
 .divTableRow { display: table-row; }
 .divTableHeading { display: table-header-group;}
-.divTableCell, .divTableHead { display: table-cell;}
+.divTableCell, .divTableHead 
+  { display: table-cell; flex: 1 1 0;}
 .divTableHeading { display: table-header-group;}
 .divTableFoot { display: table-footer-group;}
 .divTableBody { display: table-row-group;}
