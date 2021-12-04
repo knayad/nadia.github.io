@@ -5072,11 +5072,11 @@ textarea.form-control-lg {
 
 .card {
   position: relative;
-/*   opacity: 0; */
+  opacity: 0.2;
   display: flex;
   flex-direction: column;
   min-width: 0;
-  word-wrap: break-word;
+  word-wrap: normal;
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
