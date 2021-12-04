@@ -5076,14 +5076,16 @@ textarea.form-control-lg {
 
 .card {
   position: relative;
-  opacity: 0.2;
+  font-family: KOPen;
+  color: #343A40;
+  background: rgba(0, 0, 0, 0.0);
   display: flex;
   flex-direction: column;
   min-width: 0;
   word-wrap: normal;
-  background-color: #fff;
+/*   background-color: #fff; */
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 0.1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
 .card > hr {
