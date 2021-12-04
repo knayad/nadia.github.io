@@ -318,11 +318,12 @@ p2{
 .divTableRow { display: table-row; }
 .divTableHeading { display: table-header-group;}
 .divTableCell, .divTableHead 
-	  {display: table-cell; 
-	      flex: 1 1 0;
-   justify-content: center;
-   box-sizing: border-box;
-    width: 10%;
+	{display: table-cell; 
+	 flex: 1 1 0;
+  	 justify-content: center;
+   	 box-sizing: border-box;
+    	 width: 20%;
+	 flex-wrap: wrap;
 /*     border: 5px solid red;	 */
 		}
 .divTableHeading { display: table-header-group;}
