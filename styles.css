@@ -85,9 +85,10 @@ body {
   text-align: var(--bs-body-text-align);
   background:
 	url("assets/anyrgb.com.png");
-	background-attachment: scroll;
+	background-attachment: fixed;
   	background-repeat: no-repeat;
 	background-position: right bottom;
+	margin-right: 200px;
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
