@@ -148,6 +148,7 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
+  font-family: KOPen;
   color: #6c757d;
   background-color: #419EBC;
   
@@ -5129,8 +5130,8 @@ textarea.form-control-lg {
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  font-family: KOPen;
 }
+
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
 }
