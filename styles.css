@@ -8129,9 +8129,9 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg');
+/*   background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg');
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-gray-900)), !important;
+  background-color: rgba(var(--bs-gray-900)), !important; */
 /*   transition-timing-function: cubic-bezier(0.1, 0.5, .2, 0.1); */
   background-image: url('http://www.eso.org/public/archives/images/screen/eso1205a.jpg') repeat-y;
 	--bs-bg-opacity: 1;
