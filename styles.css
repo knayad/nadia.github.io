@@ -320,7 +320,11 @@ p2{
 .divTableCell, .divTableHead 
 	  {display: table-cell; 
 	      flex: 1 1 0;
-   justify-content: center;  }
+   justify-content: center;
+   box-sizing: border-box;
+    width: 10%;
+/*     border: 5px solid red;	 */
+		}
 .divTableHeading { display: table-header-group;}
 .divTableFoot { display: table-footer-group;}
 .divTableBody { display: table-row-group;}
