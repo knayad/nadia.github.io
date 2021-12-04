@@ -4791,6 +4791,8 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
+    font-family: KOPen;
+    font-size: 1.25rem;
     justify-content: flex-start;
   }
   .navbar-expand-lg .navbar-nav {
