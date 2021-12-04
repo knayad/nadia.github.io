@@ -184,7 +184,6 @@ body {
 
 p1 {
   margin: center;
-  margin-top: 25px;
   left: 25%;
 /*   margin-bottom: 0.5rem; */
   font-family: "Neuton";
@@ -201,6 +200,7 @@ p1 {
 p1 span {
 	font: 700 2em/1 "Oswald", sans-serif;
 	text-align: center;
+	margin-top: 25px;
 	letter-spacing: 50;
 	display: block;
 /* 	margin-left: 80%; */
@@ -363,7 +363,7 @@ p2{
   background: rgba(0, 0, 0, 0.0);
   margin-bottom: 10px;
   font-size: medium;
-  color: #6c757d;
+  color: #343a40;
 }
 
 .languages .card:hover {
