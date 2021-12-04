@@ -11678,6 +11678,7 @@ p.lead {
 }
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
+  font-family: KOPen;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
