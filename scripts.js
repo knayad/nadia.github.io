@@ -32,6 +32,28 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+// function to close responsive navbar after click
+
+    const navbarToggler = document.body.querySelector('.navbar-toggler');
+    const navLink = document.querySelectorAll('#navbarResponsive .nav-link');
+   
+
+    const responsiveNavItems = [].slice.call(
+        document.querySelectorAll('#navbarResponsive .nav-link')
+    );
+
+    funct hideNav(responsiveNavItems){
+        responsiveNavItem.addEventListener('click', (navLink) => {
+            if (window.getComputedStyle(navbarToggler).display !== 'none'){
+               let hide = window.getComputedStyle(navbarToggler).display === 'none';
+                return navbarToggler.click();
+            }
+        });
+    };
+
+
+
 // ////////////////////// //
 // ANIMATION FOR NAV BAR //
 // ///////////////////// //
