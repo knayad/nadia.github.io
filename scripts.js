@@ -35,22 +35,21 @@ window.addEventListener('DOMContentLoaded', event => {
 
 // function to close responsive navbar after click
 
+    let aria = document.getElementById("aria-expanded");
+    let item = document.getElementByID("nav-item");
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const navLink = document.querySelectorAll('#navbarResponsive .nav-link');
-   
-
+    let hide = window.getComputedStyle(navbarToggler).display === 'none';
     const responsiveNavItems = [].slice.call(
         document.querySelectorAll('#navbarResponsive .nav-link')
     );
 
-    funct hideNav(responsiveNavItems){
+    funct hideNav(){
         responsiveNavItem.addEventListener('click', (navLink) => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none'){
-               let hide = window.getComputedStyle(navbarToggler).display === 'none';
-                return navbarToggler.click();
+            if (aria == true){
+                return hide;
             }
         });
-    };
 
 
 
