@@ -90,6 +90,7 @@ body {
 	background-attachment: fixed;
   	background-repeat: no-repeat;
 	background-position: right bottom;
+	background-origin: content-box;
 	margin-right: 200px;
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
@@ -294,7 +295,7 @@ p2{
   width: 100%;
   padding: 50px 0;
   text-align: center;
-  background-color: #bd5d38;;
+  background-color: #bd5d38;
   margin-top: 20px;
   display:none;
 }
