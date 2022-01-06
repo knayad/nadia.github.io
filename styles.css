@@ -83,6 +83,8 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
+  
+  display: inline-block;
   background:
 	url("assets/anyrgb.com.png");
 	background-attachment: fixed;
