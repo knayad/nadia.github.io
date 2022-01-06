@@ -983,7 +983,7 @@ fieldset {
 }
 
 legend {
-  float: left;
+  float: right;
   width: 100%;
   padding: 0;
   margin-bottom: 0.5rem;
