@@ -282,7 +282,7 @@ p2{
 
 .KOPen{
   font-family: 'Nanum Pen Script', cursive;
-  font-size: calc(.5rem + .7vw);
+/*   font-size: calc(.5rem + .7vw); */
   text-align: center;
   color: black;
 }
