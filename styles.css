@@ -356,7 +356,7 @@ p2{
   align-items: center;
   height: 100%; /* adding this makes the grid take up the whole container (which is the 400px showcase jawn from before) so that the form and the showcase text won't be smooshed up top  --- it didn't do it before because we didn't have a height listed  for the container */
 }
-
+/* 
 .languages .flex {
   flex-wrap: wrap;
 }
@@ -380,7 +380,7 @@ p2{
 .languages .card:hover {
   transform: translateY(-15px); /* makes the little cards bounce up a tiny bit when you hover over them  ... but it's a little too abrupt so we'll go back up a few lines to .languages .card and add a transition ^^ */
 }
-
+ */
 /* Features */
 .features-head img, .docs-head img {
   width: 200px;
