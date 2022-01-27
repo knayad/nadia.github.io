@@ -94,3 +94,6 @@ html
     transform: translateY(0px)
   to		
     transform: translateY(-2000px)
+  
+  fab
+  display: table
