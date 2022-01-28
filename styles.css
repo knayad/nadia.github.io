@@ -320,7 +320,7 @@ p2{
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px; /* adds space between grid columns */
   justify-content: center;
   align-items: center;
