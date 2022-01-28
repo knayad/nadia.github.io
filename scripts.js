@@ -51,16 +51,22 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
 
-// math random colors //
-const setFill = () => {
-  const randomColor = Math.floor(Math.random()*16777215).toString(16);
-  element.getElementsByClassName(icons i svg fab path fill) = "#" + randomColor;
-  color.innerHTML = "#" + randomColor;
+// math random colors path fill//
+
+const loadSVG = () => {
+    var a = document.getElementById("svg");
+                                    
+    const setFill = (a) => {
+      const randomColor = Math.floor(Math.random()*16777215).toString(16);
+      element.getElementsByClassName(icons i svg fab path fill) = "#" + randomColor;
+         document.body.style.a = "#" + randomColor;
+            color.innerHTML = "#" + randomColor;
+    }
+
 }
-  
-console.log(setFill()); 
         
-        
+loadSVG();
+   
 // ////////////////////// //
 // ANIMATION FOR NAV BAR //
 // ///////////////////// //
