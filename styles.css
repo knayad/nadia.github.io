@@ -879,6 +879,9 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  horizontal-align: left;
+  display: table;
+  path fill: linear-gradient(to right, blue, pink);
 }
 
 table {
