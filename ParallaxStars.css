@@ -98,4 +98,6 @@ html
 .fab
   display: table
   align-items: left
-  fill: linear-gradient(to right, blue, pink)
+  path fill: linear-gradient(to right, blue, pink)
+  
+/* svg-inline--fa fa-html5 fa-w-12 fa-5x    */
