@@ -306,7 +306,7 @@ p2{
 
 
 /*  ***********************/
-/* HIRE TRACY BREEN (below:)*/
+/* HIRE TRACY BREEN (inspo below:)*/
 /* ***********************/
 /* Languages */
 
@@ -320,7 +320,7 @@ p2{
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px; /* adds space between grid columns */
   justify-content: center;
   align-items: center;
