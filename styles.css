@@ -303,37 +303,7 @@ p2{
 .click-to-toggle{
     cursor: pointer
 }
-/* ****************** */
-/***  DivTable.com  ***/
-/* TABLE LANG/ capabilities */
-/*  ****************** */
 
-.langlogo {
-  object-fit: contain;
-  width: 80px;
-  height: 80px;
-}
-
-
-}
-/* DivTable.com */
-.divTable{ display: table; }
-.divTableRow { display: table-row; }
-.divTableHeading { display: table-header-group;}
-.divTableCell, .divTableHead 
-	{display: table-cell; 
-	 flex: 1 1 0;
-  	 justify-content: center;
-   	 box-sizing: border-box;
-    	 width: 20%;
-	 flex-wrap: wrap;
-/*     border: 5px solid red;	 */
-		}
-.divTableHeading { display: table-header-group;}
-.divTableFoot { display: table-footer-group;}
-.divTableBody { display: table-row-group;}
-
-/*  end table */
 
 /*  ***********************/
 /* HIRE TRACY BREEN (below:)*/
