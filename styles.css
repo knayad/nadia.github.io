@@ -320,10 +320,10 @@ p2{
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, .5fr);
   gap: 20px; /* adds space between grid columns */
   justify-content: center;
-  align-items: center;
+  align-items: start;
   height: 100%; /* adding this makes the grid take up the whole container (which is the 400px showcase jawn from before) so that the form and the showcase text won't be smooshed up top  --- it didn't do it before because we didn't have a height listed  for the container */
 }
 
