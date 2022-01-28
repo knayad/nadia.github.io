@@ -52,15 +52,15 @@ window.addEventListener('DOMContentLoaded', event => {
         });
 
 // math random colors //
-function generateRandomColor(){
-    let maxVal = 0xFFFFFF; // 16777215
-    let randomNumber = Math.random() * maxVal; 
-    randomNumber = Math.floor(randomNumber);
-    randomNumber = randomNumber.toString(16);
-    let randColor = randomNumber.padStart(6, 0);   
-    return `#${randColor.toUpperCase()}`
+const setFill = () => {
+  const randomColor = Math.floor(Math.random()*16777215).toString(16);
+  element.getElementsByClassName(icons i svg fab path fill) = "#" + randomColor;
+  color.innerHTML = "#" + randomColor;
 }
-console.log(generateRandomColor()); 
+  
+console.log(setFill()); 
+        
+        
 // ////////////////////// //
 // ANIMATION FOR NAV BAR //
 // ///////////////////// //
