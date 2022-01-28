@@ -56,14 +56,15 @@ window.addEventListener('DOMContentLoaded', event => {
 const loadSVG = () => {
     var a = document.getElementById("svg");
                                     
-    const setFill = (a) => {
+    const setBg = () => {
       const randomColor = Math.floor(Math.random()*16777215).toString(16);
-      element.getElementsByClassName(icons i svg fab path fill) = "#" + randomColor;
-         document.body.style.a = "#" + randomColor;
-            color.innerHTML = "#" + randomColor;
+      window.getComputedStyle(a)= "#" + randomColor;
+      color.innerHTML = "#" + randomColor;
     }
 
-}
+genNew.window.getComputedStyle(a, setBg);
+setBg();
+};
         
 loadSVG();
    
