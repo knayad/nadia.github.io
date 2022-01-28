@@ -876,12 +876,16 @@ figure {
   margin: 0 0 1rem;
 }
 
+.icons i,
+.icons svg {
+	path fill: linear-gradient(to right, blue, pink);
+}
+
 img,
 svg {
   vertical-align: middle;
   horizontal-align: left;
   display: table;
-  path fill: linear-gradient(to right, blue, pink);
 }
 
 table {
