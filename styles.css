@@ -5070,10 +5070,10 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: normal;
-/*   background-color: #fff; */
-  background-clip: border-box;
-  border: 0.1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  background-color: #fff;
+/*   background-clip: border-box; */
+/*   border: 0.1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem; */
 }
 .card > hr {
   margin-right: 0;
@@ -5124,7 +5124,7 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+/*   border-bottom: 1px solid rgba(0, 0, 0, 0.125); */
 }
 
 .card-header:first-child {
@@ -5134,21 +5134,21 @@ textarea.form-control-lg {
 .card-footer {
   padding: 0.5rem 1rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+/*   border-top: 1px solid rgba(0, 0, 0, 0.125); */
 }
 .card-footer:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
 }
 
 .card-header-tabs {
-  margin-right: -0.5rem;
+  margin-right: 0;
   margin-bottom: -0.5rem;
   margin-left: -0.5rem;
   border-bottom: 0;
 }
 
 .card-header-pills {
-  margin-right: -0.5rem;
+  margin-right: 0;
   margin-left: -0.5rem;
 }
 
