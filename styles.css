@@ -849,7 +849,7 @@ figure {
 
 .icons i,
 .icons svg {
-	path fill: linear-gradient(to right, blue, pink);
+   fill: linear-gradient(to right, blue, pink);
 }
 
 img,
