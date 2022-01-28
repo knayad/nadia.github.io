@@ -332,7 +332,7 @@ p2{
 }
 
 .languages .card{
-  text-align: center;
+  text-align: left;
   margin: 18px 10px 40px;
   transition: transform 0.2s ease-in; /* this makes the bouncy card situation a little nicer to look at -- it eases in to the transition over 2/10ths of a second. */
 }
