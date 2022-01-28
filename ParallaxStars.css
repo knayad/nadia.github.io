@@ -97,9 +97,3 @@ html
   
 .fab
   display: table
-  align-items: left
-  path fill: linear-gradient(to right, blue, pink)
-  
-.svg-inline--fa
-   display: table
-   path fill: linear-gradient(to right, blue, pink)
