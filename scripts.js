@@ -52,12 +52,15 @@ window.addEventListener('DOMContentLoaded', event => {
         });
 
 // math random colors //
-const randColor = () =>  {
-    return "#" + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0').toUpperCase();
+function generateRandomColor(){
+    let maxVal = 0xFFFFFF; // 16777215
+    let randomNumber = Math.random() * maxVal; 
+    randomNumber = Math.floor(randomNumber);
+    randomNumber = randomNumber.toString(16);
+    let randColor = randomNumber.padStart(6, 0);   
+    return `#${randColor.toUpperCase()}`
 }
-
-console.log(randColor());
-
+console.log(generateRandomColor()); 
 // ////////////////////// //
 // ANIMATION FOR NAV BAR //
 // ///////////////////// //
