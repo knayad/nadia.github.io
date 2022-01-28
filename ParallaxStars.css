@@ -97,8 +97,7 @@ html
   
 .fab
   display: table
+  background: linear-gradient(to right, blue, pink)
 
-.fab:hover{
-   background-color: gold;
-        cursor: pointer;
-    }
+  .fab:hover
+   background: grey
