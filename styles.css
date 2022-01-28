@@ -341,10 +341,10 @@ p2{
   content-align: center;
   font-size: 20px;
   font-family: KOPen;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
   font-size: medium;
-  color: #343a40;
+  color: RGBA(52, 58, 64);
 }
 
 .languages .card:hover {
