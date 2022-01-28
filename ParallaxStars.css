@@ -97,7 +97,5 @@ html
   
 .fab
   display: table
-  background: linear-gradient(to right, blue, pink)
-
-  .fab:hover
-   background: grey
+  align-items: left
+  fill: linear-gradient(to right, blue, pink)
