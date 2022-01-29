@@ -338,13 +338,12 @@ p2{
 }
 
 .languages .card h4{
-  content-align: center;
-  font-size: 20px;
-  font-family: KOPen;
-  background: rgba(0, 0, 0, 0.1);
-  margin-bottom: 10px;
-  font-size: medium;
-  color: RGBA(52, 58, 64);
+    justify-content: center;
+    font-family: 'Nanum Pen Script';
+    background: rgb(251 191 89 / 25%);
+    margin-bottom: 10px;
+    font-size: x-large;
+    color: RGBA(52, 58, 64);
 }
 
 .languages .card:hover {
@@ -5063,7 +5062,7 @@ textarea.form-control-lg {
 
 .card {
     position: relative;
-    font-family: "Neuton";
+    font-family: "Nanum Pen Script";
     color: #343A40;
     background: rgb(0 0 0 / 0%);
     display: flex;
